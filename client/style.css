@@ -1,0 +1,28 @@
+.poki-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 5px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.poki-box:hover {
+  transform: scale(1.3);
+}
+
+.poki-box span {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.poki-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
